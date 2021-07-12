@@ -1,5 +1,12 @@
 """This module fetches the mails for the given folder and save this in
-the persistent storage"""
+the persistent storage
+
+USAGE:
+    e.g) python fetch_mail.py inbox
+
+    The default folder to fetch mails is inbox, if we want to retrieve from other folder we can give that
+    folder name.
+"""
 
 import argparse
 from datetime import datetime
